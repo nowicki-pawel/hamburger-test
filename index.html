@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>C-bula</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="img/cbula-favicon-01.png">
+    <meta name="description" content="Aplikacja do robienia zakupów online w sklepach osiedlowych">
+    <meta name="author" content="Tatiana Klenk - Łukasz Juchniewicz - Marta Pieńkowska - Paweł Nowicki">
+    <meta name="keywords" content="sklepy osiedlowe, zakupy online, osiedle, gdańsk, gdynia, sopot">
+
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-v4.1.1.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body>
+<header class="navbar-large" id="navbar">
+    <nav class="navbar-container">
+        <div class="nav-items">
+            <a class="nav-logo" href="#intro-slider"><img id="logo" src="img/logo.png" alt="logo" style="height: 50px"></a>
+            <ul>
+                <li><a href="#boxes">cechy</a></li>
+                <li><a href="#details">szczegóły</a></li>
+                <li><a href="#newsletter">premiera</a></li>
+                <li><a href="#about-us">o nas</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<nav class="navbar-hamburger">
+    <div class="hamburger-toggle">
+        <div id="hamburger-icon">
+            <div class="hamburger-box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <ul class="open">
+        <li id="li-hamburger-logo"><a class="nav-logo" href="#intro-slider"><img src="img/logo.png" alt="logo" style=""></a></li>
+        <li id="li-hamburger-1"><a href="#boxes">cechy</a></li>
+        <li id="li-hamburger-2"><a href="#details">szczegóły</a></li>
+        <li id="li-hamburger-3"><a href="#newsletter">premiera</a></li>
+        <li id="li-hamburger-4"><a href="#about-us">o nas</a></li>
+        <li id="li-hamburger-5"></li>
+    </ul>
+</nav>
+<section class="intro">
+    <div id="intro-slider" class="carousel slide intro-slider" data-ride="carousel">
+        <div class="carousel-caption">
+            <h1>Blisko Szybko Świeżo</h1>
+            <p class="d-none d-md-block">Dzięki aplikacji zrobisz zakupy w ulubionych sklepikach osiedlowych
+                niewychodząc z domu.
+                <br/> Ty wybierasz, My zajmiemy się resztą.</p>
+            <div class="intro-btn">
+                <a href="#newsletter">
+                    <span class="text">Sprawdź</span>
+                    <span class="line -right"></span>
+                    <span class="line -top"></span>
+                    <span class="line -left"></span>
+                    <span class="line -bottom"></span>
+                </a>
+            </div>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#intro-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#intro-slider" data-slide-to="1"></li>
+            <li data-target="#intro-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active carosuel-item-1 min-height-100"></div>
+            <div class="carousel-item carosuel-item-2 min-height-100"></div>
+            <div class="carousel-item carosuel-item-3 min-height-100"></div>
+        </div>
+
+        <a class="carousel-control-prev" href="#intro-slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Poprzedni</span>
+        </a>
+        <a class="carousel-control-next" href="#intro-slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Następny</span>
+        </a>
+    </div>
+</section>
+
+<!-- Lukasz 4 boxes icons-->
+<section class="functionality" id="boxes">
+    <div class="heading">
+        <h2><strong>Cechy</strong> aplikacji</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 box">
+                <img src="img/grocery%20.png" alt="">
+                <h2>Łatwe zakupy</h2>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 box">
+                <img src="img/delivery.png" alt="">
+                <h2>Dostawa do domu</h2>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 box">
+                <img src="img/choices.png" alt="">
+                <h2>Regionalne produkty</h2>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 box">
+                <img src="img/online-shop.png" alt="">
+                <h2>Oszczędność czasu</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--SZCZEGÓŁY - 8 funkcjonalności-->
+<section class="details" id="details">
+    <div class="container">
+        <div class="heading">
+            <h2>Dlaczego zakupy z <strong> C-BULA</strong>?</h2>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="details-func details-func-before col-xs-12 col-lg-6 item-wrap">
+                        <div class="row item">
+                            <div class="col-2"><span class="details-icon"><img src="img/grocery%201.png"></span>
+                            </div>
+                            <div class="col-6"><p class="sub-title">Łatwe zakupy</p></div>
+                            <div class="description">
+                                <p class="description-text">Kupowanie online jest bardzo proste a zakupy zrobisz
+                                    bardziej przemyslane i
+                                    racjonalne z dowolnego miejsca. Aplikacja pozwala na zamówienie różnorodnych
+                                    produktów z wielu sklepów osiedlowych.</p>
+                            </div>
+                        </div><!-- item -->
+                    </div><!-- item-wrap -->
+                    <div class="details-func col-xs-12 col-lg-6 item-wrap">
+                        <div class="row item">
+                            <div class="col-2"><span class="details-icon"><img src="img/checklist.png"></span>
+                            </div>
+                            <div class="col-6"><p class="sub-title">Regionalne produkty</p></div>
+                            <div class="description">
+                                <p class="description-text">W ofertach małych sklepików znajdziesz żywność ekologiczną,
+                                    pochodzącą od
+                                    lokalnych rolników i gospodarstw. Są wśród nich m.in. wędliny, owoce, warzywa,
+                                    wyroby piekarnicze, miody, sery i olej. Dzięki temu możesz odnaleźć produkty
+                                    wyjątkowe pod względem jakości i smaku.</p>
+                            </div>
+                        </div><!-- item -->
+                    </div><!-- item-wrap -->
+                    <div class="details-func details-func-before col-xs-12 col-lg-6 item-wrap">
+                        <div class="row item">
+                            <div class="col-2"><span class="details-icon"><img src="img/fruit.png"></span>
+                            </div>
+                            <div class="col-6"><p class="sub-title">Świeże produkty</p></div>
+                            <div class="description">
+                                <p class="description-text">Nie bez znaczenia jest jakość towaru. Każdy docenia świeżość
+                                    pieczywa, owoców i
+                                    warzyw oraz mięsa i nabiału oferowanego w lokalnych sklepach. Kupując je, masz
+                                    pewność, że dostarczone produkty nie zepsują się, ponieważ zamawiasz z blisko
+                                    położonych sklepów na osiedlu, a czas dostawy jest
+                                    krótki.</p>
+                            </div>
+                        </div><!-- item -->
+                    </div><!-- item-wrap -->
+                    <div class="details-func col-xs-12 col-lg-6 item-wrap">
+                        <div class="row item">
+                            <div class="col-2"><span class="details-icon"><img src="img/map-location.png"></span>
+                            </div>
+                            <div class="col-6"><p class="sub-title">"Tu mieszkam,<br> Tu kupuję"</p></div>
+                            <div class="description">
+                                <p class="description-text">Ogólnopolski program społeczny, promuje i wspiera osiedlowe
+                                    sklepy o zasięgu lokalnym
+                                    oraz wspiera rozwój tradycyjnego handlu. Stanowią one serce każdej lokalnej
+                                    społeczności, a zakupy w nich mają wiele zalet. Wspierajmy rodzimy, polski handel i
+                                    produkty.</p>
+                            </div>
+                        </div><!-- item -->
+                    </div><!-- item-wrap -->
+                    <div class="details-func details-func-before col-xs-12 col-lg-6 item-wrap">
+                        <div class="row item">
+                            <div class="col-2"><span class="details-icon"><img src="img/delivery2.png"></span>
+                            </div>
+                            <div class="col-6"><p class="sub-title">Dostawa dodomu</p></div>
+                            <div class="description">
+                                <p class="description-text">Masz już dosyć dźwigania ciężkich kartonów i butelek na 4
+                                    piętro? Czemu nie miałby Ci
+                                    przynieść ich kurier? Dostawę pod drzwi docenią przede wszystkim osoby z
+                                    różnymi problemami zdrowotnymi, osoby opiekujące się dziećmi, bądź też pozbawione
+                                    samochodu.</p>
+                            </div>
+                        </div><!-- item -->
+                    </div><!-- item-wrap -->
+                    <div class="details-func col-xs-12 col-lg-6 item-wrap">
+                        <div class="row item">
+                            <div class="col-2"><span class="details-icon"><img src="img/online-shop1.png"></span>
+                            </div>
+                            <div class="col-6"><p class="sub-title">Oszczędność czasu</p></div>
+                            <div class="description">
+                                <p class="description-text">Nie tracisz pieniędzy i czasu na dojazd, zwiedzanie marketu
+                                    i stania w długich
+                                    kolejkach. Zamówienie zajmie Ci tylko chwilę, dzięki temu zaoszczędzisz dużo czasu.
+                                    Zapłacisz kilkanaście złotych więcej za zakupy (koszt dostawy),
+                                    ale w cenie wliczony będzie Twój komfort i czas.</p>
+                            </div>
+                        </div><!-- item -->
+                    </div><!-- item-wrap -->
+                    <div class="details-func details-func-before col-xs-12 col-lg-6 item-wrap">
+                        <div class="row item">
+                            <div class="col-2"><span class="details-icon"><img src="img/smartphone.png"></span>
+                            </div>
+                            <div class="col-6"><p class="sub-title">Łatwa obsługa aplikacji</p></div>
+                            <div class="description">
+                                <p class="description-text">Aplikacja działa na różnych urządzeniach, tj. telefonach,
+                                    tabletach czy laptopach.
+                                    Wygodna oraz intuicyjna w obsłudze. W łatwy sposób odnajdziesz potrzebny sklep w
+                                    Twojej okolicy.</p>
+                            </div>
+                        </div><!-- item -->
+                    </div><!-- item-wrap -->
+                    <div class="details-func col-xs-12 col-lg-6 item-wrap">
+                        <div class="row item">
+                            <div class="col-2"><span class="details-icon"><img src="img/help.png"></span>
+                            </div>
+                            <div class="col-6"><p class="sub-title">pomagaj z nami</p></div>
+                            <div class="description">
+                                <p class="description-text">Pomagaj! Jak? Kupione przez ciebie produkty zostaną
+                                    przekazane potrzebującym. Więcej
+                                    informacji znajdziesz w Regulaminie.</p>
+                            </div>
+                        </div><!-- item -->
+                    </div><!-- item-wrap -->
+
+                </div><!-- row -->
+            </div><!-- col-sm-12 -->
+        </div><!-- row -->
+    </div><!-- container -->
+</section>
+
+<!--Paweł - Newsletter, podanie maila i imienia-->
+<section class="newsletter" id="newsletter">
+    <form class="form heading">
+        <h2>Zapisz się na <b>premierę!</b></h2>
+        <form action="http://c-bula.pl/newsletter.php">
+            <div class="form-row">
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="inputName"></label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Twoje imię" required="required"
+                           pattern="[A-ZŁŚŻ]{1}[a-z,ą,ę,ć,ń,ó,ś,ł]{2,15}"
+                           title="Wprowadź poprawnie imię zaczynając od wielkiej litery (3-15 liter)">
+                </div>
+                <div class="form-group col-md-6 col-sm-12">
+                    <label for="inputEmail4"></label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Twój e-mail"
+                           required="required" pattern="[a-z0-9_.-]+@[a-z0-9_.-]+\.\w{2,4}"
+                           title="Wprowadź poprawny adres e-mail">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required="required">
+                    <label class="form-check-label" for="gridCheck">
+                        <p>Wyrażam zgodę na jednorazowe otrzymanie zaproszenia na premierę <strong>(10.07.2018)</strong>
+                            nowej aplikacji od C-BULA
+                            Developers Team (C-BULA sp. z o.o., al. Grunwaldzka 472B, 80-309 Gdańsk) na mój adres e-mail
+                            zgodnie z ustawą z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną (Dz. U. Nr
+                            144,
+                            poz 1204).</p>
+                    </label>
+                </div>
+            </div>
+            <div class="form-buttons">
+                <button type="submit" class="btn-form">Wyślij</button>
+                <button type="reset" class="btn-form">Wyczyść</button>
+            </div>
+        </form>
+    </form>
+</section>
+<!--Lukasz - ABOUT US-->
+
+<div class="container about-us" id="about-us">
+    <div class="heading">
+        <h2>Zespół <strong>C-Bula</strong></h2>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="about-us__team-members about-us__photo-team-up">
+                <div class="team-avatar">
+                    <img class="img-responsive center-block" src="img/lukasz.jpg" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>Łukasz Juchniewicz</h4>
+                    <span>Z wykształcenia Informatyk. Kibic sportowy. Wolny czas spędza na siłowni. Lubi czytać, słucha muzyki filmowej, interesuje go astronomia. Od niedawna próbuje sił we Front-Endzie.</span>
+                    <div class="social-icons">
+                        <div class="git-hub social">
+                            <a href="https://github.com/juchas019" target="_blank"><img class="team-img"
+                                                                                        src="img/github-logo.png"
+                                                                                        alt=""></a>
+                        </div>
+                        <div class="linkedin social">
+                            <a href="https://www.linkedin.com/in/%C5%82ukasz-juchniewicz-091538164/"
+                               target="_blank"><img class="team-img" src="img/linkedin.png" alt=""></a>
+                        </div>
+                        <div class="portfolio social">
+                            <a href="https://juchas019.github.io/portfolio/" target="_blank"><img class="team-img"
+                                                                                                  src="img/resume.png"
+                                                                                                  alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="about-us__team-members about-us__photo-team-up">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="img/tatiana.jpg" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>Tatiana Klenk</h4>
+                    <span>Absolwentka E-biznesu na UG. Obecnie HR-ka. Lubi aktywnie spędzać czas, szczególnie na świeżym powietrzu. Ciągle szuka nowych zajęć i wrażeń.</span>
+                    <div class="social-icons">
+                        <div class="git-hub social">
+                            <a href="https://github.com/tklenk" target="_blank"><img class="team-img"
+                                                                                     src="img/github-logo.png"
+                                                                                     alt=""></a>
+                        </div>
+                        <div class="linkedin social">
+                            <a href="https://www.linkedin.com/in/tatiana-klenk-3467a845/" target="_blank"><img
+                                    class="team-img" src="img/linkedin.png" alt=""></a>
+                        </div>
+                        <div class="portfolio social">
+                            <a href="" target="_blank"><img class="team-img" src="img/resume.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="about-us__team-members about-us__photo-team-up">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="img/marta.jpg" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>Marta Pieńkowska</h4>
+                    <span>Poczatkująca Front-End developerka. Wielbicielka mango i czekolady. W wolnych chwilach lubi spędzać czas z przyjaciółmi, siedziec na słońcu i cieszyć się chwilą.</span>
+                    <div class="social-icons">
+                        <div class="git-hub social">
+                            <a href="https://github.com/PienkowskaMarta" target="_blank"><img class="team-img"
+                                                                                              src="img/github-logo.png"
+                                                                                              alt=""></a>
+                        </div>
+                        <div class="linkedin social">
+                            <a href="https://pl.linkedin.com/in/marta-pie%C5%84kowska-7b173454" target="_blank"><img
+                                    class="team-img" src="img/linkedin.png" alt=""></a>
+                        </div>
+                        <div class="portfolio social">
+                            <a href="" target="_blank"><img class="team-img" src="img/resume.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 offset-lg-1">
+            <div class="about-us__team-members about-us__photo-team-up">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="img/pawel.jpg" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>Paweł Nowicki</h4>
+                    <span>Marzyciel, romantyk lubiący włoską muzykę i komiksy z Kapitanem Żbikiem. Grafik, początkujący front-end developer. Po godzinach amatorski beatmaker oraz (niestety) fan polskiej piłki kopanej.</span>
+                    <div class="social-icons">
+                        <div class="git-hub social">
+                            <a href="https://github.com/nowicki-pawel" target="_blank"><img class="team-img"
+                                                                                            src="img/github-logo.png"
+                                                                                            alt=""></a>
+                        </div>
+                        <div class="linkedin social">
+                            <a href="https://www.linkedin.com/in/pawe%C5%82-nowicki-ab80a5166/" target="_blank"><img
+                                    class="team-img" src="img/linkedin.png" alt=""></a>
+                        </div>
+                        <div class="portfolio social">
+                            <a href="https://nowicki-pawel.github.io/portfolio-beta/" target="_blank"><img
+                                    class="team-img" src="img/resume.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 offset-lg-2">
+            <div class="about-us__team-members about-us__photo-team-up">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="img/pawl_kieno.jpg" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>Paweł Kieno</h4>
+                    <span>Front end developer pasjonujący się grafiką trójwymiarową oraz wszelkiego rodzaju animacją i silnikami graficznymi związanymi z nią. W wolnym czasie spędzając na grach kompetetywnych i próbie odnowy statusu "pro".</span>
+                    <div class="social-icons">
+                        <div class="git-hub social">
+                            <a href="https://github.com/sillywet" target="_blank"><img class="team-img"
+                                                                                       src="img/github-logo.png"
+                                                                                       alt=""></a>
+                        </div>
+                        <div class="linkedin social">
+                            <a href="https://www.linkedin.com/" target="_blank"><img
+                                    class="team-img" src="img/linkedin.png" alt=""></a>
+                        </div>
+                        <div class="portfolio social">
+                            <a href="" target="_blank"><img class="team-img" src="img/resume.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- //end row -->
+</div>
+
+<a href="#intro-slider" class="go-top" title="Go top" id="scroll-to-top"><img src="img/arrow-up.svg"
+                                                                              alt="strzałka do góry"/></a>
+
+<!--Footer-->
+
+<footer class="page__footer">
+    <div class="footer-style">
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row py-4 d-flex align-items-center">
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h6 class="mb-0">Dołącz do nas na portalach społecznościowych!</h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                    <!-- Facebook -->
+                    <a class="fb-ic">
+                        <i class="footer-facebook"> </i>
+                        <a href="https://www.facebook.com/infosharepl/?ref=br_rs" target="_blank"><img
+                                src="img/facebook23.png" alt=""></a>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic">
+                        <i class="footer-facebook"> </i>
+                        <a href="" target="_blank"><img src="img/twitter30.png" alt=""></a>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic">
+                        <i class="footer-instagram"> </i>
+                        <a href="https://www.instagram.com/?hl=pl" target="_blank"><img src="img/instagram30.png"
+                                                                                        alt=""></a>
+                    </a>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+        <div class="footer__container">
+
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-12">
+
+                    <!-- Content -->
+                    <h6 class="footer__content">C-BULA</h6>
+                    <hr class="deep-purple accent-2 mb-12 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>BLISKO SZYBKO ŚWIEŻO</p>
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-12">
+
+                    <!-- Links -->
+                    <h6 class="footer-useful-links">Przydatne</h6>
+                    <hr class="deep-purple accent-2 mb-12 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#">Regulamin</a>
+                    </p>
+                    <p>
+                        <a href="#">FAQ</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-12">
+
+                    <!-- Links -->
+                    <h6 class="footer-contact">Kontakt</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fa fa-home mr-1.9"></i>al. Grunwaldzka 472B, Gdańsk</p>
+                    <i class="fa fa-phone mr-1.9"></i>info@cbula.pl, tel.604 555 666</p>
+                    <p>
+                        <i class="fa fa-print mr-1.9"></i></p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright">© 2018 Copyright:
+        <a href=""> C-BULA Developers Team</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+
+<script src="./js/jquery-v3.3.1.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/carousel.js"></script>
+<script src="./js/smooth-scroll.js"></script>
+<script src="./js/animation_about-us.js"></script>
+
+<script src="./js/resize.js"></script>
+
+<script src="./js/back-to-top.js"></script>
+
+</body>
+</html>
